@@ -104,3 +104,108 @@ You should know already...
   c. Area triangle $= \frac{base\cdot height}{2}$
   d. Volume sphere $= \frac{4}{3}\pi r^3$
   e. ...
+
+## Scientific Notation
+
+Scientific notation: using in your calculator.
+
+[Watch this video](https://www.youtube.com/watch?v=1jDfRhMl0z4).
+
+**Mini-practical:** Discover what method your calculator uses for dividing scientific notations  ($3.07\cdot 10^4$, $3.07^{04}$, $3.07E4$).
+
+* Design 20 operations you know (mentally) the answer of which include powers of ten. Eg $\frac{9\cdot 10^4}{3\cdot 10^2} = 3·10^2=300$.
+
+* Decide how your calculator works in scientific notation and formulate it as a hypothesis (“when I press... the calculator should do...”).
+
+* Design a method to verify this hypothesis with a $\frac{1}{20}$ (“significant”) reliability ($\rightarrow$ you will need 20 operations, 19 of them must agree with the hypothesis for it to be declared true).
+
+* Perform the method, and draw a conclusion.
+
+* Compare with the calculators of other students (in case you ever need to borrow a calculator!).
+
+## Questions on Units and notation
+
+1. Which of the following SI units equivalent to the volt?
+
+  A - ampere per ohm
+
+  B - coulomb per seconds
+
+  C - joule per coulomb
+
+  D - joule per second 
+
+  (**Total for question = 1 mark**)
+
+2. Which of the following expresses the volt in SI units?
+
+  A - $kg\hspace{1mm}m^2 s^{-2} C^{-1}$
+
+  B - $kg\hspace{1mm}m^2 s^{-3} C$
+
+  C - $kg\hspace{1mm}m^2 s A^{-1}$
+
+  D - $kg\hspace{1mm}m^2 s^{-3} A^{-1}$
+
+  (**Total for question = 1 mark**)
+
+3. A student investigates how the resistance of a filament lamp varies during the first second after it is switched on. He decides to use a computer with data logging sensors ake the readings. The best reason for this is that:
+
+  A - A large number of readings can be taken
+
+  B - The computer can calculate the resistance
+
+  C - There is no human error
+
+  D - There is no zero error
+
+  (**Total for question = 1 mark**)
+
+4. The unit of potential is the volt. A correct alternative unit is:
+
+  A - $J\hspace{1mm}A^{-1}s^{-1}$
+
+  B - $J\hspace{1mm}As^{-1}$
+
+  C - $J\hspace{1mm}A\hspace{1mm}s$
+
+  D - $J\hspace{1mm}A^{-1}s$
+
+  (**Total for question = 1 mark**)
+
+5. The unit of the time constant for a resistor-capacitor circuit is:
+
+  A - $\Omega F^{-1}$
+
+  B - $\Omega C$
+
+  C - $s$
+
+  D - $s\hspace{1mm}F$
+
+  (**Total for question = 1 mark**)
+
+6. Electric field strenght can have the units:
+
+  A - $C\hspace{1mm}m^{-1}$
+
+  B - $N\hspace{1mm}C^{-1}$
+
+  C - $N\hspace{1mm}V^{-1}$
+
+  D - $V\hspace{1mm}m$
+
+  (**Total for question = 1 mark**)
+
+7. A volt can be defined:
+
+  A - A coulomb per joule
+
+  B - A coulomb per second
+
+  C - A joule per coulomb
+
+  D - A joule per second
+
+  (**Total for question = 1 mark**)
+
