@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Y12">
+
+<title>Physics Equations Cheatsheet</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="01-Equations_cheatsheet_files/libs/clipboard/clipboard.min.js"></script>
+<script src="01-Equations_cheatsheet_files/libs/quarto-html/quarto.js"></script>
+<script src="01-Equations_cheatsheet_files/libs/quarto-html/popper.min.js"></script>
+<script src="01-Equations_cheatsheet_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="01-Equations_cheatsheet_files/libs/quarto-html/anchor.min.js"></script>
+<link href="01-Equations_cheatsheet_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="01-Equations_cheatsheet_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="01-Equations_cheatsheet_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="01-Equations_cheatsheet_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="01-Equations_cheatsheet_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#mechanics-and-materials" id="toc-mechanics-and-materials" class="nav-link active" data-scroll-target="#mechanics-and-materials"><span class="header-section-number">1</span> Mechanics and Materials</a></li>
+  <li><a href="#waves-and-electricity" id="toc-waves-and-electricity" class="nav-link" data-scroll-target="#waves-and-electricity"><span class="header-section-number">2</span> Waves and Electricity</a></li>
+  <li><a href="#further-mechanics-fields-and-particles" id="toc-further-mechanics-fields-and-particles" class="nav-link" data-scroll-target="#further-mechanics-fields-and-particles"><span class="header-section-number">3</span> Further Mechanics, Fields and Particles</a></li>
+  <li><a href="#thermodinamycs-radiation-oscillations-and-cosmology" id="toc-thermodinamycs-radiation-oscillations-and-cosmology" class="nav-link" data-scroll-target="#thermodinamycs-radiation-oscillations-and-cosmology"><span class="header-section-number">4</span> Thermodinamycs, Radiation, Oscillations and Cosmology</a></li>
+  <li><a href="#data-sheet" id="toc-data-sheet" class="nav-link" data-scroll-target="#data-sheet"><span class="header-section-number">5</span> Data Sheet</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="01-Equations_cheatsheet.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Physics Equations Cheatsheet</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Y12 </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="mechanics-and-materials" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="mechanics-and-materials"><span class="header-section-number">1</span> Mechanics and Materials</h2>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Kinematic equations of motion</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Motion</td>
+<td style="text-align: left;"><span class="math inline">\(s = \frac{(u+v)\cdot t}{2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(v = u + a\cdot t\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(s = u\cdot t + \frac{1}{2} a\cdot t^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(v^2 = u^2 + 2as\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Forces</td>
+<td style="text-align: left;"><span class="math inline">\(\sum F = m\cdot a\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(g = \frac{F}{m}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(W = m\cdot g\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Momentum</td>
+<td style="text-align: left;"><span class="math inline">\(p = m\cdot v\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Moment of force</td>
+<td style="text-align: left;"><span class="math inline">\(= F\cdot x\)</span></td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Materials</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Density</td>
+<td style="text-align: left;"><span class="math inline">\(\rho = \frac{m}{V}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stoke’s law</td>
+<td style="text-align: left;"><span class="math inline">\(F = 6\pi \cdot \eta \cdot r\cdot v\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hooke’s law</td>
+<td style="text-align: left;"><span class="math inline">\(\Delta F = k\cdot \Delta x\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Young modulus</td>
+<td style="text-align: left;">stress <span class="math inline">\(\sigma = \frac{F}{A}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Strain <span class="math inline">\(\epsilon = \frac{\Delta x}{x}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(E = \frac{\sigma}{\epsilon}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Elastic Strain Energy</td>
+<td style="text-align: left;"><span class="math inline">\(\Delta E_d = \frac{1}{2} F\cdot \Delta x\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="waves-and-electricity" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="waves-and-electricity"><span class="header-section-number">2</span> Waves and Electricity</h2>
+<table class="table-striped table">
+<caption></caption>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 81%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Waves and particle nature of light</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Wave speed</td>
+<td style="text-align: left;"><span class="math inline">\(v = f \cdot \lambda\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Speed of a transverse wave on a string</td>
+<td style="text-align: left;"><span class="math inline">\(v = \sqrt{\frac{T}{\mu}}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Intensity of radiation</td>
+<td style="text-align: left;"><span class="math inline">\(I = \frac{P}{A}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Refractive index</td>
+<td style="text-align: left;"><span class="math inline">\(n_1\cdot sin \theta _1 = n_1\cdot sin \theta _2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(n = \frac{c}{v}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Critical angle</td>
+<td style="text-align: left;"><span class="math inline">\(sin C = \frac{1}{n}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Difracction grating</td>
+<td style="text-align: left;"><span class="math inline">\(n\cdot \lambda = d \cdot sin\theta\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">De Broglie wavelenght</td>
+<td style="text-align: left;"><span class="math inline">\(\lambda = \frac{h}{p}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Photon model</td>
+<td style="text-align: left;"><span class="math inline">\(E = h\cdot f\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Einstein’s photoelectric equation</td>
+<td style="text-align: left;"><span class="math inline">\(hf = \phi + \frac{1}{2} m\cdot v^{2}_{max}\)</span></td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Electricity</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Current</td>
+<td style="text-align: left;"><span class="math inline">\(I = \frac{\Delta Q}{\Delta t}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Potential difference</td>
+<td style="text-align: left;"><span class="math inline">\(V = \frac{W}{Q}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Resistance</td>
+<td style="text-align: left;"><span class="math inline">\(R = \frac{V}{I}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Electrical power, energy and efficiency</td>
+<td style="text-align: left;"><span class="math inline">\(P = V\cdot I\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(P = I^2R\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(P = \frac{V^2}{R}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(W = VIt\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Resistivity</td>
+<td style="text-align: left;"><span class="math inline">\(R = \frac{\rho l}{A}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(I = nq\nu A\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="further-mechanics-fields-and-particles" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="further-mechanics-fields-and-particles"><span class="header-section-number">3</span> Further Mechanics, Fields and Particles</h2>
+<table class="table-striped table">
+<caption></caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Further mechanics</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Impulse</td>
+<td style="text-align: left;"><span class="math inline">\(F\Delta t = \Delta p\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Kinetic energy of a non-relativistic particle</td>
+<td style="text-align: left;"><span class="math inline">\(E_k = \frac{p^2}{2m}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Motion in a circle</td>
+<td style="text-align: left;"><span class="math inline">\(v = \omega r\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(T = \frac{2*\pi}{\omega}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(a = \frac{v^2}{r}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(a = r\omega ^2\)</span></td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Electric and magnetic fields</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Electric field</td>
+<td style="text-align: left;"><span class="math inline">\(E = \frac{F}{Q}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Coulomb’s law</td>
+<td style="text-align: left;"><span class="math inline">\(F = \frac{Q_1 Q_2}{4\pi \epsilon _0 r^2}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(E = \frac{Q}{4\pi \epsilon _0 r^2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(E = \frac{V}{d}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Electric potential</td>
+<td style="text-align: left;"><span class="math inline">\(V = \frac{Q}{4\pi \epsilon _0 r}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Capacitance</td>
+<td style="text-align: left;"><span class="math inline">\(C = \frac{Q}{V}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Energy stored in a capacitor</td>
+<td style="text-align: left;"><span class="math inline">\(W = \frac{1}{2} QV\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(W = \frac{1}{2} CV^2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(W = \frac{\frac{1}{2}Q^2}{C}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Capacitor discharge</td>
+<td style="text-align: left;"><span class="math inline">\(Q = Q_0 e^{\frac{-t}{RC}}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Resistor-Capacitor discharge</td>
+<td style="text-align: left;"><span class="math inline">\(I = I_0 e^{\frac{-t}{RC}}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(V = V_0 e^{\frac{-t}{RC}}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(lnQ = lnQ_0 - \frac{-t}{RC}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(lnI = lnI_0 - \frac{-t}{RC}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(lnV = lnV_0 - \frac{-t}{RC}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">In a magnetic field</td>
+<td style="text-align: left;"><span class="math inline">\(F = BqvSin\theta\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(F = BIlsin\theta\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Faraday and Lenz’s law</td>
+<td style="text-align: left;"><span class="math inline">\(\mathcal{E} = \frac{-d(N\phi)}{dt}\)</span></td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Nuclear and Particle Physics</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">In a magnetic field</td>
+<td style="text-align: left;"><span class="math inline">\(r = \frac{p}{BQ}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mass energy</td>
+<td style="text-align: left;"><span class="math inline">\(\Delta E = \Delta m\cdot c^2\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="thermodinamycs-radiation-oscillations-and-cosmology" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="thermodinamycs-radiation-oscillations-and-cosmology"><span class="header-section-number">4</span> Thermodinamycs, Radiation, Oscillations and Cosmology</h2>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Thermodinamycs</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Heating</td>
+<td style="text-align: left;"><span class="math inline">\(\Delta E = mc\Delta \theta\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(\Delta E = L\Delta m\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ideal gas equation</td>
+<td style="text-align: left;"><span class="math inline">\(pV = NkT\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Molecular kinetic theory</td>
+<td style="text-align: left;"><span class="math inline">\(\frac{1}{2}m&lt;c^2&gt; = \frac{3}{2}kT\)</span></td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Nuclear decay</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mass-energy</td>
+<td style="text-align: left;"><span class="math inline">\(\Delta E = \Delta m\cdot c^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Radioactive decay</td>
+<td style="text-align: left;"><span class="math inline">\(A = \lambda N\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(\frac{dN}{dt} = -\lambda N\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(\lambda = \frac{ln2}{t_{\frac{1}{2}}}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(N = N_0 e^{-\lambda r}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(A = A_0 e^{-\lambda r}\)</span></td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Oscillations</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Simple harmonic motion</td>
+<td style="text-align: left;"><span class="math inline">\(F = -kx\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(a = -\omega ^2 x\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(x = A\cdot cos(\omega t)\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(v = -A\omega\cdot sin(\omega t)\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(a = -A\omega ^2 \cdot cos(\omega t)\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(T = \frac{1}{f} = \frac{2\pi}{\omega}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(\omega = 2\pi f\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Simple harmonic oscillator</td>
+<td style="text-align: left;"><span class="math inline">\(T = 2\pi \sqrt{\frac{m}{k}}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">\(T = 2\pi \sqrt{\frac{l}{g}}\)</span></td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped table">
+<caption></caption>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Astrophysics and cosmology</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Gravitational field strength</td>
+<td style="text-align: left;"><span class="math inline">\(g = \frac{F}{m}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gravitational force</td>
+<td style="text-align: left;"><span class="math inline">\(F = \frac{Gm_1 m_2}{r^2}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gravitational field</td>
+<td style="text-align: left;"><span class="math inline">\(g = \frac{Gm}{r^2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gravitational potential</td>
+<td style="text-align: left;"><span class="math inline">\(V_{grav} = \frac{-Gm}{r}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stefan-Boltzmann law</td>
+<td style="text-align: left;"><span class="math inline">\(L = \sigma T^4 A\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Wien’s law</td>
+<td style="text-align: left;"><span class="math inline">\(\lambda _{max}T = 2.898\cdot 10^{-3}m\cdot K\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Intensity of radiation</td>
+<td style="text-align: left;"><span class="math inline">\(I = \frac{L}{4\pi d^2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Redshift of electromagnetic radiation</td>
+<td style="text-align: left;"><span class="math inline">\(z = \frac{\Delta \lambda}{\lambda} \approx \frac{\Delta f}{f} \approx \frac{v}{c}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cosmological expansion</td>
+<td style="text-align: left;"><span class="math inline">\(v = H_0 d\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="data-sheet" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="data-sheet"><span class="header-section-number">5</span> Data Sheet</h2>
+<table class="table-striped table">
+<caption></caption>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Data sheet</strong></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Acceleration of the free fall</td>
+<td style="text-align: left;"><span class="math inline">\(g = 9.81 \frac{m}{s^2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Boltzmann constant</td>
+<td style="text-align: left;"><span class="math inline">\(k = 1.38\cdot 10^{-23}\frac{J}{K}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Coulomb’s law constant</td>
+<td style="text-align: left;"><span class="math inline">\(k = \frac{1}{4\pi \epsilon _0} = 8.99\cdot 10^9 \frac{Nm^2}{C^2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Electron charge</td>
+<td style="text-align: left;"><span class="math inline">\(e = -1.60\cdot 10^{-19}C\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Electron mass</td>
+<td style="text-align: left;"><span class="math inline">\(m_e = 9.11\cdot 10^{-31}kg\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Electronvolt</td>
+<td style="text-align: left;"><span class="math inline">\(1eV = 1.60\cdot 10^{-19}J\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gravitational constant</td>
+<td style="text-align: left;"><span class="math inline">\(G = 6.67\cdot 10^{-11}\frac{Nm^2}{kg^2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gravitational field strength</td>
+<td style="text-align: left;"><span class="math inline">\(g = 9.81\frac{N}{kg}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Planck constant</td>
+<td style="text-align: left;"><span class="math inline">\(h = 6.63\cdot 10^{-34}Js\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Permittivity of free space</td>
+<td style="text-align: left;"><span class="math inline">\(\epsilon _0 = 8.85\cdot 10^{-12}\frac{F}{m}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Proton mass</td>
+<td style="text-align: left;"><span class="math inline">\(m_p = 1.67\cdot 10^{-27}kg\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Speed of light in vacuum</td>
+<td style="text-align: left;"><span class="math inline">\(c = 3.00\cdot 10^{8}\frac{m}{s}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

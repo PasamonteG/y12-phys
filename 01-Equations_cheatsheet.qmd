@@ -1,0 +1,173 @@
+---
+title: Physics Equations Cheatsheet
+author: Y12
+highlight-style: pygments
+toc: true
+number-sections: true
+reference-location: margin
+code-fold: true
+format: 
+  pdf:
+    geometry: 
+      - top=25mm
+      - left=25mm
+---
+
+## Mechanics and Materials
+
+| **Kinematic equations of motion** | |
+|:-|:---|
+| Motion |$s = \frac{(u+v)\cdot t}{2}$|
+| | $v = u + a\cdot t$|
+| | $s = u\cdot t + \frac{1}{2} a\cdot t^2$|
+| | $v^2 = u^2 + 2as$|
+| Forces | $\sum F = m\cdot a$|
+| | $g = \frac{F}{m}$|
+| | $W = m\cdot g$ |
+| Momentum | $p = m\cdot v$|
+| Moment of force | $= F\cdot x$ |
+: {.striped}
+
+| **Materials** | |
+|:-|:---|
+| Density | $\rho = \frac{m}{V}$|
+| Stoke's law | $F = 6\pi \cdot \eta \cdot r\cdot v$ |
+| Hooke's law | $\Delta F = k\cdot \Delta x$ |
+| Young modulus | stress $\sigma = \frac{F}{A}$ |
+| | Strain $\epsilon = \frac{\Delta x}{x}$ |
+| | $E = \frac{\sigma}{\epsilon}$ |
+| Elastic Strain Energy| $\Delta E_d = \frac{1}{2} F\cdot \Delta x$ |
+: {.striped}
+
+## Waves and Electricity
+
+| **Waves and particle nature of light** | |
+|:-|:--------|
+| Wave speed | $v = f \cdot \lambda$ |
+| Speed of a transverse wave on a string | $v = \sqrt{\frac{T}{\mu}}$ |
+| Intensity of radiation | $I = \frac{P}{A}$|
+| Refractive index | $n_1\cdot sin \theta _1 = n_1\cdot sin \theta _2$ |
+| | $n = \frac{c}{v}$ |
+| Critical angle | $sin C = \frac{1}{n}$ |
+| Difracction grating | $n\cdot \lambda = d \cdot sin\theta$ |
+| De Broglie wavelenght | $\lambda = \frac{h}{p}$ |
+| Photon model | $E = h\cdot f$ |
+|Einstein's photoelectric equation | $hf = \phi + \frac{1}{2} m\cdot v^{2}_{max}$ |
+: {.striped}
+
+| **Electricity** | |
+|:-|:--------|
+| Current | $I = \frac{\Delta Q}{\Delta t}$ |
+| Potential difference | $V = \frac{W}{Q}$ |
+| Resistance | $R = \frac{V}{I}$ |
+| Electrical power, energy and efficiency | $P = V\cdot I$ |
+| | $P = I^2R$ |
+| | $P = \frac{V^2}{R}$ |
+| | $W = VIt$ |
+| Resistivity | $R = \frac{\rho l}{A}$ |
+| | $I = nq\nu A$ |
+: {.striped}
+
+## Further Mechanics, Fields and Particles
+
+| **Further mechanics** | |
+|:-|:---|
+| Impulse | $F\Delta t = \Delta p$ |
+| Kinetic energy of a non-relativistic particle | $E_k = \frac{p^2}{2m}$|
+| Motion in a circle | $v = \omega r$|
+| | $T = \frac{2*\pi}{\omega}$|
+| | $a = \frac{v^2}{r}$|
+| | $a = r\omega ^2$ |
+: {.striped}
+
+| **Electric and magnetic fields** | |
+|:-|:---|
+|Electric field | $E = \frac{F}{Q}$|
+| Coulomb's law | $F = \frac{Q_1 Q_2}{4\pi \epsilon _0 r^2}$|
+| | $E = \frac{Q}{4\pi \epsilon _0 r^2}$|
+| | $E = \frac{V}{d}$|
+| Electric potential | $V = \frac{Q}{4\pi \epsilon _0 r}$|
+| Capacitance | $C = \frac{Q}{V}$|
+| Energy stored in a capacitor | $W = \frac{1}{2} QV$|
+| | $W = \frac{1}{2} CV^2$
+| | $W = \frac{\frac{1}{2}Q^2}{C}$|
+| Capacitor discharge | $Q = Q_0 e^{\frac{-t}{RC}}$|
+| Resistor-Capacitor discharge | $I = I_0 e^{\frac{-t}{RC}}$|
+| | $V = V_0 e^{\frac{-t}{RC}}$ |
+| | $lnQ = lnQ_0 - \frac{-t}{RC}$|
+| | $lnI = lnI_0 - \frac{-t}{RC}$|
+| | $lnV = lnV_0 - \frac{-t}{RC}$|
+| In a magnetic field | $F = BqvSin\theta$ |
+| | $F = BIlsin\theta$ |
+| Faraday and Lenz's law | $\mathcal{E} = \frac{-d(N\phi)}{dt}$|
+: {.striped}
+
+| **Nuclear and Particle Physics** | |
+|:-|:---|
+| In a magnetic field | $r = \frac{p}{BQ}$|
+| Mass energy| $\Delta E = \Delta m\cdot c^2$|
+: {.striped}
+
+## Thermodinamycs, Radiation, Oscillations and Cosmology
+
+| **Thermodinamycs** | |
+|:-|:---|
+| Heating | $\Delta E = mc\Delta \theta$ |
+| | $\Delta E = L\Delta m$ |
+| Ideal gas equation | $pV = NkT$ |
+| Molecular kinetic theory | $\frac{1}{2}m<c^2> = \frac{3}{2}kT$ |
+: {.striped}
+
+| **Nuclear decay** | |
+|:-|:---|
+| Mass-energy | $\Delta E = \Delta m\cdot c^2$ |
+| Radioactive decay | $A = \lambda N$ |
+| | $\frac{dN}{dt} = -\lambda N$ |
+| | $\lambda = \frac{ln2}{t_{\frac{1}{2}}}$ |
+| | $N = N_0 e^{-\lambda r}$ |
+| | $A = A_0 e^{-\lambda r}$ |
+: {.striped}
+
+| **Oscillations** | |
+|:--|:------|
+| Simple harmonic motion | $F = -kx$ |
+| | $a = -\omega ^2 x$ |
+| | $x = A\cdot cos(\omega t)$ |
+| | $v = -A\omega\cdot sin(\omega t)$ |
+| | $a = -A\omega ^2 \cdot cos(\omega t)$ |
+| | $T = \frac{1}{f} = \frac{2\pi}{\omega}$ |
+| | $\omega = 2\pi f$ |
+| Simple harmonic oscillator | $T = 2\pi \sqrt{\frac{m}{k}}$ |
+| | $T = 2\pi \sqrt{\frac{l}{g}}$ |
+: {.striped}
+
+| **Astrophysics and cosmology** | |
+|:--|:------|
+| Gravitational field strength | $g = \frac{F}{m}$ |
+| Gravitational force| $F = \frac{Gm_1 m_2}{r^2}$ |
+| Gravitational field | $g = \frac{Gm}{r^2}$ |
+| Gravitational potential | $V_{grav} = \frac{-Gm}{r}$ |
+| Stefan-Boltzmann law | $L = \sigma T^4 A$ |
+| Wien's law | $\lambda _{max}T = 2.898\cdot 10^{-3}m\cdot K$ |
+| Intensity of radiation | $I = \frac{L}{4\pi d^2}$ |
+| Redshift of electromagnetic radiation | $z = \frac{\Delta \lambda}{\lambda} \approx \frac{\Delta f}{f} \approx \frac{v}{c}$ |
+| Cosmological expansion | $v = H_0 d$ |
+: {.striped}
+
+## Data Sheet 
+
+| **Data sheet** | |
+|:--|:------|
+| Acceleration of the free fall | $g = 9.81 \frac{m}{s^2}$ |
+| Boltzmann constant | $k = 1.38\cdot 10^{-23}\frac{J}{K}$ |
+| Coulomb's law constant | $k = \frac{1}{4\pi \epsilon _0} = 8.99\cdot 10^9 \frac{Nm^2}{C^2}$ |
+| Electron charge | $e = -1.60\cdot 10^{-19}C$ |
+| Electron mass | $m_e = 9.11\cdot 10^{-31}kg$ |
+| Electronvolt | $1eV = 1.60\cdot 10^{-19}J$ |
+| Gravitational constant | $G = 6.67\cdot 10^{-11}\frac{Nm^2}{kg^2}$
+| Gravitational field strength | $g = 9.81\frac{N}{kg}$ |
+| Planck constant | $h = 6.63\cdot 10^{-34}Js$ |
+| Permittivity of free space | $\epsilon _0 = 8.85\cdot 10^{-12}\frac{F}{m}$ |
+| Proton mass | $m_p = 1.67\cdot 10^{-27}kg$ |
+| Speed of light in vacuum | $c = 3.00\cdot 10^{8}\frac{m}{s}$|
+: {.striped}
