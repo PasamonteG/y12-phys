@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "01-Equations_cheatsheet.html",
+    "href": "01-Equations_cheatsheet.html",
+    "title": "Physics Equations Cheatsheet",
+    "section": "",
+    "text": "Kinematic equations of motion\n\n\n\n\n\nMotion\n\\(s = \\frac{(u+v)\\cdot t}{2}\\)\n\n\n\n\\(v = u + a\\cdot t\\)\n\n\n\n\\(s = u\\cdot t + \\frac{1}{2} a\\cdot t^2\\)\n\n\n\n\\(v^2 = u^2 + 2as\\)\n\n\nForces\n\\(\\sum F = m\\cdot a\\)\n\n\n\n\\(g = \\frac{F}{m}\\)\n\n\n\n\\(W = m\\cdot g\\)\n\n\nMomentum\n\\(p = m\\cdot v\\)\n\n\nMoment of force\n\\(= F\\cdot x\\)\n\n\n\n\n\n\n\nMaterials\n\n\n\n\n\nDensity\n\\(\\rho = \\frac{m}{V}\\)\n\n\nStoke’s law\n\\(F = 6\\pi \\cdot \\eta \\cdot r\\cdot v\\)\n\n\nHooke’s law\n\\(\\Delta F = k\\cdot \\Delta x\\)\n\n\nYoung modulus\nstress \\(\\sigma = \\frac{F}{A}\\)\n\n\n\nStrain \\(\\epsilon = \\frac{\\Delta x}{x}\\)\n\n\n\n\\(E = \\frac{\\sigma}{\\epsilon}\\)\n\n\nElastic Strain Energy\n\\(\\Delta E_d = \\frac{1}{2} F\\cdot \\Delta x\\)"
+  },
+  {
+    "objectID": "01-Equations_cheatsheet.html#mechanics-and-materials",
+    "href": "01-Equations_cheatsheet.html#mechanics-and-materials",
+    "title": "Physics Equations Cheatsheet",
+    "section": "",
+    "text": "Kinematic equations of motion\n\n\n\n\n\nMotion\n\\(s = \\frac{(u+v)\\cdot t}{2}\\)\n\n\n\n\\(v = u + a\\cdot t\\)\n\n\n\n\\(s = u\\cdot t + \\frac{1}{2} a\\cdot t^2\\)\n\n\n\n\\(v^2 = u^2 + 2as\\)\n\n\nForces\n\\(\\sum F = m\\cdot a\\)\n\n\n\n\\(g = \\frac{F}{m}\\)\n\n\n\n\\(W = m\\cdot g\\)\n\n\nMomentum\n\\(p = m\\cdot v\\)\n\n\nMoment of force\n\\(= F\\cdot x\\)\n\n\n\n\n\n\n\nMaterials\n\n\n\n\n\nDensity\n\\(\\rho = \\frac{m}{V}\\)\n\n\nStoke’s law\n\\(F = 6\\pi \\cdot \\eta \\cdot r\\cdot v\\)\n\n\nHooke’s law\n\\(\\Delta F = k\\cdot \\Delta x\\)\n\n\nYoung modulus\nstress \\(\\sigma = \\frac{F}{A}\\)\n\n\n\nStrain \\(\\epsilon = \\frac{\\Delta x}{x}\\)\n\n\n\n\\(E = \\frac{\\sigma}{\\epsilon}\\)\n\n\nElastic Strain Energy\n\\(\\Delta E_d = \\frac{1}{2} F\\cdot \\Delta x\\)"
+  },
+  {
+    "objectID": "01-Equations_cheatsheet.html#waves-and-electricity",
+    "href": "01-Equations_cheatsheet.html#waves-and-electricity",
+    "title": "Physics Equations Cheatsheet",
+    "section": "2 Waves and Electricity",
+    "text": "2 Waves and Electricity\n\n\n\n\n\n\n\n\nWaves and particle nature of light\n\n\n\n\n\nWave speed\n\\(v = f \\cdot \\lambda\\)\n\n\nSpeed of a transverse wave on a string\n\\(v = \\sqrt{\\frac{T}{\\mu}}\\)\n\n\nIntensity of radiation\n\\(I = \\frac{P}{A}\\)\n\n\nRefractive index\n\\(n_1\\cdot sin \\theta _1 = n_1\\cdot sin \\theta _2\\)\n\n\n\n\\(n = \\frac{c}{v}\\)\n\n\nCritical angle\n\\(sin C = \\frac{1}{n}\\)\n\n\nDifracction grating\n\\(n\\cdot \\lambda = d \\cdot sin\\theta\\)\n\n\nDe Broglie wavelenght\n\\(\\lambda = \\frac{h}{p}\\)\n\n\nPhoton model\n\\(E = h\\cdot f\\)\n\n\nEinstein’s photoelectric equation\n\\(hf = \\phi + \\frac{1}{2} m\\cdot v^{2}_{max}\\)\n\n\n\n\n\n\n\nElectricity\n\n\n\n\n\nCurrent\n\\(I = \\frac{\\Delta Q}{\\Delta t}\\)\n\n\nPotential difference\n\\(V = \\frac{W}{Q}\\)\n\n\nResistance\n\\(R = \\frac{V}{I}\\)\n\n\nElectrical power, energy and efficiency\n\\(P = V\\cdot I\\)\n\n\n\n\\(P = I^2R\\)\n\n\n\n\\(P = \\frac{V^2}{R}\\)\n\n\n\n\\(W = VIt\\)\n\n\nResistivity\n\\(R = \\frac{\\rho l}{A}\\)\n\n\n\n\\(I = nq\\nu A\\)"
+  },
+  {
+    "objectID": "01-Equations_cheatsheet.html#further-mechanics-fields-and-particles",
+    "href": "01-Equations_cheatsheet.html#further-mechanics-fields-and-particles",
+    "title": "Physics Equations Cheatsheet",
+    "section": "3 Further Mechanics, Fields and Particles",
+    "text": "3 Further Mechanics, Fields and Particles\n\n\n\n\n\n\n\n\nFurther mechanics\n\n\n\n\n\nImpulse\n\\(F\\Delta t = \\Delta p\\)\n\n\nKinetic energy of a non-relativistic particle\n\\(E_k = \\frac{p^2}{2m}\\)\n\n\nMotion in a circle\n\\(v = \\omega r\\)\n\n\n\n\\(T = \\frac{2*\\pi}{\\omega}\\)\n\n\n\n\\(a = \\frac{v^2}{r}\\)\n\n\n\n\\(a = r\\omega ^2\\)\n\n\n\n\n\n\n\nElectric and magnetic fields\n\n\n\n\n\nElectric field\n\\(E = \\frac{F}{Q}\\)\n\n\nCoulomb’s law\n\\(F = \\frac{Q_1 Q_2}{4\\pi \\epsilon _0 r^2}\\)\n\n\n\n\\(E = \\frac{Q}{4\\pi \\epsilon _0 r^2}\\)\n\n\n\n\\(E = \\frac{V}{d}\\)\n\n\nElectric potential\n\\(V = \\frac{Q}{4\\pi \\epsilon _0 r}\\)\n\n\nCapacitance\n\\(C = \\frac{Q}{V}\\)\n\n\nEnergy stored in a capacitor\n\\(W = \\frac{1}{2} QV\\)\n\n\n\n\\(W = \\frac{1}{2} CV^2\\)\n\n\n\n\\(W = \\frac{\\frac{1}{2}Q^2}{C}\\)\n\n\nCapacitor discharge\n\\(Q = Q_0 e^{\\frac{-t}{RC}}\\)\n\n\nResistor-Capacitor discharge\n\\(I = I_0 e^{\\frac{-t}{RC}}\\)\n\n\n\n\\(V = V_0 e^{\\frac{-t}{RC}}\\)\n\n\n\n\\(lnQ = lnQ_0 - \\frac{-t}{RC}\\)\n\n\n\n\\(lnI = lnI_0 - \\frac{-t}{RC}\\)\n\n\n\n\\(lnV = lnV_0 - \\frac{-t}{RC}\\)\n\n\nIn a magnetic field\n\\(F = BqvSin\\theta\\)\n\n\n\n\\(F = BIlsin\\theta\\)\n\n\nFaraday and Lenz’s law\n\\(\\mathcal{E} = \\frac{-d(N\\phi)}{dt}\\)\n\n\n\n\n\n\n\nNuclear and Particle Physics\n\n\n\n\n\nIn a magnetic field\n\\(r = \\frac{p}{BQ}\\)\n\n\nMass energy\n\\(\\Delta E = \\Delta m\\cdot c^2\\)"
+  },
+  {
+    "objectID": "01-Equations_cheatsheet.html#thermodinamycs-radiation-oscillations-and-cosmology",
+    "href": "01-Equations_cheatsheet.html#thermodinamycs-radiation-oscillations-and-cosmology",
+    "title": "Physics Equations Cheatsheet",
+    "section": "4 Thermodinamycs, Radiation, Oscillations and Cosmology",
+    "text": "4 Thermodinamycs, Radiation, Oscillations and Cosmology\n\n\n\n\nThermodinamycs\n\n\n\n\n\nHeating\n\\(\\Delta E = mc\\Delta \\theta\\)\n\n\n\n\\(\\Delta E = L\\Delta m\\)\n\n\nIdeal gas equation\n\\(pV = NkT\\)\n\n\nMolecular kinetic theory\n\\(\\frac{1}{2}m&lt;c^2&gt; = \\frac{3}{2}kT\\)\n\n\n\n\n\n\n\nNuclear decay\n\n\n\n\n\nMass-energy\n\\(\\Delta E = \\Delta m\\cdot c^2\\)\n\n\nRadioactive decay\n\\(A = \\lambda N\\)\n\n\n\n\\(\\frac{dN}{dt} = -\\lambda N\\)\n\n\n\n\\(\\lambda = \\frac{ln2}{t_{\\frac{1}{2}}}\\)\n\n\n\n\\(N = N_0 e^{-\\lambda r}\\)\n\n\n\n\\(A = A_0 e^{-\\lambda r}\\)\n\n\n\n\n\n\n\nOscillations\n\n\n\n\n\nSimple harmonic motion\n\\(F = -kx\\)\n\n\n\n\\(a = -\\omega ^2 x\\)\n\n\n\n\\(x = A\\cdot cos(\\omega t)\\)\n\n\n\n\\(v = -A\\omega\\cdot sin(\\omega t)\\)\n\n\n\n\\(a = -A\\omega ^2 \\cdot cos(\\omega t)\\)\n\n\n\n\\(T = \\frac{1}{f} = \\frac{2\\pi}{\\omega}\\)\n\n\n\n\\(\\omega = 2\\pi f\\)\n\n\nSimple harmonic oscillator\n\\(T = 2\\pi \\sqrt{\\frac{m}{k}}\\)\n\n\n\n\\(T = 2\\pi \\sqrt{\\frac{l}{g}}\\)\n\n\n\n\n\n\n\n\n\n\n\nAstrophysics and cosmology\n\n\n\n\n\nGravitational field strength\n\\(g = \\frac{F}{m}\\)\n\n\nGravitational force\n\\(F = \\frac{Gm_1 m_2}{r^2}\\)\n\n\nGravitational field\n\\(g = \\frac{Gm}{r^2}\\)\n\n\nGravitational potential\n\\(V_{grav} = \\frac{-Gm}{r}\\)\n\n\nStefan-Boltzmann law\n\\(L = \\sigma T^4 A\\)\n\n\nWien’s law\n\\(\\lambda _{max}T = 2.898\\cdot 10^{-3}m\\cdot K\\)\n\n\nIntensity of radiation\n\\(I = \\frac{L}{4\\pi d^2}\\)\n\n\nRedshift of electromagnetic radiation\n\\(z = \\frac{\\Delta \\lambda}{\\lambda} \\approx \\frac{\\Delta f}{f} \\approx \\frac{v}{c}\\)\n\n\nCosmological expansion\n\\(v = H_0 d\\)"
+  },
+  {
+    "objectID": "01-Equations_cheatsheet.html#data-sheet",
+    "href": "01-Equations_cheatsheet.html#data-sheet",
+    "title": "Physics Equations Cheatsheet",
+    "section": "5 Data Sheet",
+    "text": "5 Data Sheet\n\n\n\n\n\n\n\n\nData sheet\n\n\n\n\n\nAcceleration of the free fall\n\\(g = 9.81 \\frac{m}{s^2}\\)\n\n\nBoltzmann constant\n\\(k = 1.38\\cdot 10^{-23}\\frac{J}{K}\\)\n\n\nCoulomb’s law constant\n\\(k = \\frac{1}{4\\pi \\epsilon _0} = 8.99\\cdot 10^9 \\frac{Nm^2}{C^2}\\)\n\n\nElectron charge\n\\(e = -1.60\\cdot 10^{-19}C\\)\n\n\nElectron mass\n\\(m_e = 9.11\\cdot 10^{-31}kg\\)\n\n\nElectronvolt\n\\(1eV = 1.60\\cdot 10^{-19}J\\)\n\n\nGravitational constant\n\\(G = 6.67\\cdot 10^{-11}\\frac{Nm^2}{kg^2}\\)\n\n\nGravitational field strength\n\\(g = 9.81\\frac{N}{kg}\\)\n\n\nPlanck constant\n\\(h = 6.63\\cdot 10^{-34}Js\\)\n\n\nPermittivity of free space\n\\(\\epsilon _0 = 8.85\\cdot 10^{-12}\\frac{F}{m}\\)\n\n\nProton mass\n\\(m_p = 1.67\\cdot 10^{-27}kg\\)\n\n\nSpeed of light in vacuum\n\\(c = 3.00\\cdot 10^{8}\\frac{m}{s}\\)"
+  }
+]
