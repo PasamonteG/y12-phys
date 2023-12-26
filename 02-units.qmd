@@ -1,0 +1,88 @@
+---
+title: Unit 0. Units and Basic Maths
+author: Y12
+highlight-style: pygments
+toc: true
+number-sections: true
+reference-location: margin
+code-fold: true
+format: 
+  pdf:
+    geometry: 
+      - top=25mm
+      - left=25mm
+---
+
+## Standard Units and Basic Maths 
+
+### Review of symbols
+
+| Symbol | Meaning |
+|:------:|:---------------------|
+| $\approx$ | Approximately equal |
+| $\neq$ | Not equal, different |
+| $\sum$ | Sum of a series of numbers |
+| $\prod$ | Product of a series of numbers |
+| $\int$ | Integral operation |
+| $\Delta$ | Augment, difference in an interval |
+| $\propto$ | Proportional |
+| $d$ or $\partial$ | Derivative |
+| $\infty$ | Infinity |
+| $|x|$ | Modulus of $x$ |
+| $\overrightarrow x$ | Vector $x$ |
+
+
+### Base units
+
+How many units do you think you really need in Physics? 10? 20? 100?... [Guess](https://physics.nist.gov/cuu/Units/units.html)
+
+**Base units:** decided by scientific community, they are the minimum quantity needed to describe all other magnitudes.
+
+![Basic units](images/basicUnits.png){#fig-basicUnits}
+
+**SI units:** the internationally decided units for each base unit, revised periodically to increase precision, ease of use, etc:
+
+* $kg$ (prototype)
+* $s$ ($9·10^9 \Delta C_{ground level}$)
+* $m$ (distance light in $\frac{1}{3}\cdot 10^8 s$)
+* $A$ (current for $2·10^{-7}\frac{N}{m}$ 1m apart)
+* $K$ ($273.16^{-1} waters^{s-l-g}$)
+* $mol$ (atoms $0.012kg$, ${}^{12}C$)
+* cd ($10^{-3}\frac{W}{rad^2}$, intensity of a $5\cdot 10^{14}Hz$ light).
+
+**Derived units:** the rest, p.e.:
+
+* $\frac{m}{s}$ or $m\cdot s^{-1}$
+* $N$, Newton
+* $J$, Jules
+* $W$, Watts
+* $Hz$, Hertzs
+* $C$, Coulombs
+* $V$, Volts
+* $\Omega$, Ohms
+* ... 
+
+![Derived units](images/derivedUnits.png){#fig-derivedUnits}
+
+Units can be added _power prefixes_. You must know nano up to giga.Careful with time above seconds! (not x10)
+
+![Decimal system](images/decimalSystem.png){#fig-decimalSystem}
+
+### Maths Revision
+
+You should know already...
+
+* $360^{\circ} = 2\pi$ rad $\rightarrow 30^{\circ} = 2\pi \cdot \frac{30}{360}$ rad 
+
+* **Vectors:** $(2,3)$ means 2 in the $x$ direction, 3 in the $y$ direction.
+
+* **Trigonometry:** _SOH CAH TOA_
+
+    ![SOH CAH TOA](images/sohcahtoa.png){#fig-sohcahtoa}
+
+* **Graphs:** 
+
+    - Gradient: slope of a graph $m = \frac{\Delta y}{\Delta x}$
+    - Line equation: $y = ax + b$, $b$ is the gradient or slope.
+
+* 

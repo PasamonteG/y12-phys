@@ -2,5 +2,12 @@
   "01-Equations_cheatsheet.qmd": {
     "01-Equations_cheatsheet.tex": "ad67d65f",
     "01-Equations_cheatsheet.html": "1c27cb07"
+  },
+  "02-motion.qmd": {
+    "02-motion.tex": "201754ec"
+  },
+  "02-units.qmd": {
+    "02-units.tex": "ec2913bd",
+    "02-units.html": "78560342"
   }
 }
