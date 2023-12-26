@@ -64,7 +64,9 @@ How many units do you think you really need in Physics? 10? 20? 100?... [Guess](
 
 ![Derived units](images/derivedUnits.png){#fig-derivedUnits}
 
-Units can be added _power prefixes_. You must know nano up to giga.Careful with time above seconds! (not x10)
+Units can be added _power prefixes_. You must know nano up to giga.
+
+Careful with time above seconds! (not x10)
 
 ![Decimal system](images/decimalSystem.png){#fig-decimalSystem}
 
@@ -83,6 +85,6 @@ You should know already...
 * **Graphs:** 
 
     - Gradient: slope of a graph $m = \frac{\Delta y}{\Delta x}$
-    - Line equation: $y = ax + b$, $b$ is the gradient or slope.
+    - Line equation: $y = ax + b$, where $b$ is the gradient or slope.
 
 * 
