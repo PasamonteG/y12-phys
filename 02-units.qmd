@@ -84,7 +84,23 @@ You should know already...
 
 * **Graphs:** 
 
-    - Gradient: slope of a graph $m = \frac{\Delta y}{\Delta x}$
+     Gradient: slope of a graph $m = \frac{\Delta y}{\Delta x}$
     - Line equation: $y = ax + b$, where $b$ is the gradient or slope.
 
-* 
+* **Solve unknown formulas:** P.e. solve $u$:
+
+  a. $v^2 = u^2 + 2as \rightarrow v^2 - 2as = u^2 \rightarrow \sqrt{v^2 - 2as} = u$ done! 
+
+* **Combine formulas into new ones:** P.e. combine these three to calculate $F$ without having to use $a$ or $s$. 
+
+  a. $F = ma$; $a= \frac{v^2 - u^2}{2s}$; $s = \frac{d}{t}$ then 
+  b. $F = \frac{m(v^2 - u^2)}{2s}$ then
+  c. $F = \frac{m(v^2 - u^2)}{2\frac{d}{t}} = F = \frac{mt(v^2 - u^2)}{2d}$.
+
+* **Geometry:**
+
+  a. Area circle $= \pi r^2$
+  b. Area square $= base\cdot height$
+  c. Area triangle $= \frac{base\cdot height}{2}$
+  d. Volume sphere $= \frac{4}{3}\pi r^3$
+  e. ...
