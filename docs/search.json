@@ -89,5 +89,19 @@
     "title": "Unit 3. Waves",
     "section": "2 Wave types",
     "text": "2 Wave types\n\n2.1 By oscillation plane\nAccording to the oscillation plane, compared with wave displacement, we find transverse and longitudinal waves.\nDo you know what transverse and longitudinal means?\n\n\n\nFigure 3: Transverse and longitudinal planes\n\n\n\\(\\rightarrow\\) Transverse wave: motion is perpendicular to displacement (up/down). Eg ropes, electromagnetic waves (light), earthquake S-waves.\n\\(\\rightarrow\\) Longitudinal wave: motion is parallel to displacement (front-back). Eg sound waves (compressions vs rarefactions), earthquake P-waves.\nBoth kinds of waves are represented in the same graphs.\n\nCompression: area at higher pressure (molecules closer together).\nRarefaction: area at lower pressure (molecules further apart).\n\nWatch this video\nMinipractical: flick a string on top of the table and let it stop. Waves should remain visible. Measure the time for 10 “flicks” (oscillations) to calculate the frequency (\\(\\frac{1}{T}\\)), and with a ruler the amplitude and wavelength. From this calculate the speed."
+  },
+  {
+    "objectID": "03-waves.html#wave-phase-superposition",
+    "href": "03-waves.html#wave-phase-superposition",
+    "title": "Unit 3. Waves",
+    "section": "3 Wave Phase, Superposition",
+    "text": "3 Wave Phase, Superposition\nWhat is the phase in a wave? Why is it useful?\nWhat is superposition? How can superposition apply to waves?\n\n3.1 Phase\nPhase (\\(\\varphi\\) in radians) measures the wave position compared to a circular movement.\n\nPhase of 1 cycle (wavelength, \\(\\lambda\\) ) \\(= 360^{\\circ}\\) or \\(2\\pi rad\\).\n\n\n\nFigure 4: Phase compared to circular movement\n\n\nMore than 1 cycle is expressed as the equivalent of the first cycle Eg: \\(450^{\\circ} = 360^{\\circ} + 90^{\\circ} \\rightarrow 90^{\\circ}\\); \\(2.5\\pi\\hspace{1mm} rad = 2\\pi\\hspace{1mm} rad + 0.5\\pi\\hspace{1mm} rad \\rightarrow 0.5\\pi\\hspace{1mm} rad\\).\nThe phase between two point can be measured_ \\(\\Delta\\varphi_{two points} = 2\\pi \\frac{\\Delta d(m)}{\\lambda}\\).\n\nWatch this video.\n\n\n3.2 Interference\n\nWavefront: lines/surfaces with the wave at the same point Perpendicular to displacement of the wave.\nSuperposition: if waves coincide in the same point, the amplitude of the different waves add. $Amplitude_T = A_i $. But displacement does not change.\n\n\\(\\rightarrow\\) In pulses, waves pass through each other. Figure 5\n\n\n\nFigure 5: Waves add amplitude\n\n\n\\(\\rightarrow\\) In continuous waves they do interfere (create a new wave, \\(A_T\\)). constructive (\\(A_T &gt; A_i\\)) or destructive (\\(A_T &lt; A_i\\)). It depends on the \\(A_i\\) and on the phase difference (\\(\\Delta \\theta\\)). Figure 6\n\n\n\nFigure 6: Constructive and destructive interference\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNOT REQUIRED FOR UK: The general equation of a wave is \\[\ny(x,t) = A \\cdot sin(2𝜋\\frac{x-vt}{\\lambda}) = A\\cdot sin(2𝜋 \\frac{x}{\\lambda} ∓ ωt +φ_0)= A\\cdot cos(2𝜋\\frac{x}{\\lambda} ∓ ωt + φ_0 - \\frac{\\pi}{2})\n\\]\nAlso, \\(T = \\frac{2\\pi}{\\omega} = \\frac{1}{f}\\) with \\(- =\\) moving forward; \\(+ =\\) moving backward; \\(v = \\frac{\\omega \\lambda}{2\\pi}\\)."
+  },
+  {
+    "objectID": "03-waves.html#stationary-waves",
+    "href": "03-waves.html#stationary-waves",
+    "title": "Unit 3. Waves",
+    "section": "4 Stationary waves",
+    "text": "4 Stationary waves\nWhat are coherent waves?"
   }
 ]

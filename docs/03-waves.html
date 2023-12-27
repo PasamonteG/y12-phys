@@ -85,6 +85,12 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#by-oscillation-plane" id="toc-by-oscillation-plane" class="nav-link" data-scroll-target="#by-oscillation-plane"><span class="header-section-number">2.1</span> By oscillation plane</a></li>
   </ul></li>
+  <li><a href="#wave-phase-superposition" id="toc-wave-phase-superposition" class="nav-link" data-scroll-target="#wave-phase-superposition"><span class="header-section-number">3</span> Wave Phase, Superposition</a>
+  <ul class="collapse">
+  <li><a href="#phase" id="toc-phase" class="nav-link" data-scroll-target="#phase"><span class="header-section-number">3.1</span> Phase</a></li>
+  <li><a href="#interference" id="toc-interference" class="nav-link" data-scroll-target="#interference"><span class="header-section-number">3.2</span> Interference</a></li>
+  </ul></li>
+  <li><a href="#stationary-waves" id="toc-stationary-waves" class="nav-link" data-scroll-target="#stationary-waves"><span class="header-section-number">4</span> Stationary waves</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="03-waves.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -180,9 +186,71 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><a href="https://www.youtube.com/watch?v=0Anh9HthWgQ">Watch this video</a></p>
 <p><em>Minipractical:</em> flick a string on top of the table and let it stop. Waves should remain visible. Measure the time for 10 “flicks” (oscillations) to calculate the frequency (<span class="math inline">\(\frac{1}{T}\)</span>), and with a ruler the amplitude and wavelength. From this calculate the speed.</p>
-
-
 </section>
+</section>
+<section id="wave-phase-superposition" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="wave-phase-superposition"><span class="header-section-number">3</span> Wave Phase, Superposition</h2>
+<p>What is the phase in a wave? Why is it useful?</p>
+<p>What is superposition? How can superposition apply to waves?</p>
+<section id="phase" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="phase"><span class="header-section-number">3.1</span> Phase</h3>
+<p>Phase (<span class="math inline">\(\varphi\)</span> in radians) measures the wave position compared to a circular movement.</p>
+<ul>
+<li><p>Phase of 1 cycle (wavelength, <span class="math inline">\(\lambda\)</span> ) <span class="math inline">\(= 360^{\circ}\)</span> or <span class="math inline">\(2\pi rad\)</span>.</p>
+<div id="fig-phase_1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/phase_1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;4: Phase compared to circular movement</figcaption>
+</figure>
+</div></li>
+<li><p>More than 1 cycle is expressed as the equivalent of the first cycle Eg: <span class="math inline">\(450^{\circ} = 360^{\circ} + 90^{\circ} \rightarrow 90^{\circ}\)</span>; <span class="math inline">\(2.5\pi\hspace{1mm} rad = 2\pi\hspace{1mm} rad + 0.5\pi\hspace{1mm} rad \rightarrow 0.5\pi\hspace{1mm} rad\)</span>.</p>
+<p>The phase between two point can be measured_ <span class="math inline">\(\Delta\varphi_{two points} = 2\pi \frac{\Delta d(m)}{\lambda}\)</span>.</p></li>
+</ul>
+<p><a href="https://www.youtube.com/watch?v=v_oujF9RHK8">Watch this video</a>.</p>
+</section>
+<section id="interference" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="interference"><span class="header-section-number">3.2</span> Interference</h3>
+<ul>
+<li><p><strong>Wavefront:</strong> lines/surfaces with the wave at the same point Perpendicular to displacement of the wave.</p></li>
+<li><p><strong>Superposition:</strong> if waves coincide in the same point, the amplitude of the different waves add. $Amplitude_T = A_i $. But displacement does not change.</p></li>
+</ul>
+<p><span class="math inline">\(\rightarrow\)</span> In pulses, waves pass through each other. <a href="#fig-interference_1">Figure&nbsp;5</a></p>
+<div id="fig-interference_1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/interference_1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;5: Waves add amplitude</figcaption>
+</figure>
+</div>
+<p><span class="math inline">\(\rightarrow\)</span> In continuous waves they do interfere (create a new wave, <span class="math inline">\(A_T\)</span>). constructive (<span class="math inline">\(A_T &gt; A_i\)</span>) or destructive (<span class="math inline">\(A_T &lt; A_i\)</span>). It depends on the <span class="math inline">\(A_i\)</span> and on the phase difference (<span class="math inline">\(\Delta \theta\)</span>). <a href="#fig-interference_2">Figure&nbsp;6</a></p>
+<div id="fig-interference_2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/interference_2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;6: Constructive and destructive interference</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>NOT REQUIRED FOR UK:</strong> The general equation of a wave is <span class="math display">\[
+y(x,t) = A \cdot sin(2𝜋\frac{x-vt}{\lambda}) = A\cdot sin(2𝜋 \frac{x}{\lambda} ∓ ωt +φ_0)= A\cdot cos(2𝜋\frac{x}{\lambda} ∓ ωt + φ_0 - \frac{\pi}{2})
+\]</span></p>
+<p>Also, <span class="math inline">\(T = \frac{2\pi}{\omega} = \frac{1}{f}\)</span> with <span class="math inline">\(- =\)</span> moving forward; <span class="math inline">\(+ =\)</span> moving backward; <span class="math inline">\(v = \frac{\omega \lambda}{2\pi}\)</span>.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="stationary-waves" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="stationary-waves"><span class="header-section-number">4</span> Stationary waves</h2>
+<p>What are coherent waves?</p>
+
+
 </section>
 
 </main> <!-- /main -->

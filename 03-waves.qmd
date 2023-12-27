@@ -83,3 +83,50 @@ Both kinds of waves are represented in the same graphs.
 
 _Minipractical:_ flick a string on top of the table and let it stop. Waves should remain visible. Measure the time for 10 “flicks” (oscillations) to calculate the frequency ($\frac{1}{T}$), and with a ruler the amplitude and wavelength. From this calculate the speed.
 
+## Wave Phase, Superposition
+
+What is the phase in a wave? Why is it useful?
+
+What is superposition? How can superposition apply to waves?
+
+### Phase
+
+Phase ($\varphi$ in radians) measures the wave position compared to a circular movement.
+
+* Phase of 1 cycle (wavelength, $\lambda$ ) $= 360^{\circ}$ or $2\pi rad$. 
+
+    ![Phase compared to circular movement](images/phase_1.png){#fig-phase_1}
+
+* More than 1 cycle is expressed as the equivalent of the first cycle Eg: $450^{\circ} = 360^{\circ} + 90^{\circ} \rightarrow 90^{\circ}$; $2.5\pi\hspace{1mm} rad = 2\pi\hspace{1mm} rad + 0.5\pi\hspace{1mm} rad \rightarrow 0.5\pi\hspace{1mm} rad$.
+
+    The phase between two point can be measured_ $\Delta\varphi_{two points} = 2\pi \frac{\Delta d(m)}{\lambda}$.
+
+[Watch this video](https://www.youtube.com/watch?v=v_oujF9RHK8).
+
+### Interference
+
+* **Wavefront:** lines/surfaces with the wave at the same point Perpendicular to displacement of the wave.
+
+* **Superposition:** if waves coincide in the same point, the amplitude of the different waves add. $Amplitude_T = \sum A_i $. But displacement does not change. 
+
+$\rightarrow$ In pulses, waves pass through each other. @fig-interference_1
+
+![Waves add amplitude](images/interference_1.png){#fig-interference_1}
+
+$\rightarrow$ In continuous waves they do interfere (create a new wave, $A_T$). constructive ($A_T > A_i$) or destructive ($A_T < A_i$). It depends on the $A_i$ and on the phase difference ($\Delta \theta$). @fig-interference_2
+
+![Constructive and destructive interference](images/interference_2.png){#fig-interference_2}
+
+:::{.callout-important}
+**NOT REQUIRED FOR UK:** The general equation of a wave is 
+$$
+y(x,t) = A \cdot sin(2𝜋\frac{x-vt}{\lambda}) = A\cdot sin(2𝜋 \frac{x}{\lambda} ∓ ωt +φ_0)= A\cdot cos(2𝜋\frac{x}{\lambda} ∓ ωt + φ_0 - \frac{\pi}{2})
+$$  
+
+Also, $T = \frac{2\pi}{\omega} = \frac{1}{f}$ with $- =$ moving forward; $+ =$ moving backward; $v = \frac{\omega \lambda}{2\pi}$.
+:::
+
+## Stationary waves
+
+What are coherent waves? 
+
