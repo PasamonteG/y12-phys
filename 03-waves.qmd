@@ -83,4 +83,3 @@ Both kinds of waves are represented in the same graphs.
 
 _Minipractical:_ flick a string on top of the table and let it stop. Waves should remain visible. Measure the time for 10 “flicks” (oscillations) to calculate the frequency ($\frac{1}{T}$), and with a ruler the amplitude and wavelength. From this calculate the speed.
 
-
