@@ -47,7 +47,7 @@ $\rightarrow$ **Wave:** transfer of energy without matter (by transmission of os
 
 _Checkpoint questions_. (Extra: Read the experiment p.91, draw the wave diagram).
 
-### Think
+**Answers**
 
 1. Graph from top to bottom: $0.2 m$, $80 m$, $5.5 m$.
 
@@ -61,4 +61,26 @@ _Checkpoint questions_. (Extra: Read the experiment p.91, draw the wave diagram)
     Eg. estimated wavelenght is $5 m$, estimated frequency is 1 wave every 3 seconds, so $f = 0.33 Hz$. $v = f\cdot \lambda = 0.33\times 5 = 1.7 m\hspace{1mm}s^{-1}$
 
 ## Wave types
+
+### By oscillation plane
+According to the oscillation plane, compared with wave displacement, we find transverse and longitudinal waves. 
+
+Do you know what transverse and longitudinal means?
+
+![Transverse and longitudinal planes](images/trans_long_wave.png){#fig-trans_long_wave width=60%}
+
+$\rightarrow$ Transverse wave: motion is perpendicular to displacement (up/down). Eg ropes, electromagnetic waves (light), earthquake S-waves.
+
+$\rightarrow$ Longitudinal wave: motion is parallel to displacement (front-back). Eg sound waves (compressions vs rarefactions), earthquake P-waves.
+
+Both kinds of waves are represented in the same graphs.
+
+- Compression: area at higher pressure (molecules closer together).
+
+- Rarefaction: area at lower pressure (molecules further apart).
+
+[Watch this video](https://www.youtube.com/watch?v=0Anh9HthWgQ)
+
+_Minipractical:_ flick a string on top of the table and let it stop. Waves should remain visible. Measure the time for 10 “flicks” (oscillations) to calculate the frequency ($\frac{1}{T}$), and with a ruler the amplitude and wavelength. From this calculate the speed.
+
 
