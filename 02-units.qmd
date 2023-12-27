@@ -209,3 +209,47 @@ Scientific notation: using in your calculator.
 
   (**Total for question = 1 mark**)
 
+8. An ampere can be expressed as:
+
+  A - $C\hspace{1mm}s^{-1}$
+
+  B - $J\hspace{1mm}C^{-1}$
+
+  C - $V\hspace{1mm}W^{-1}$
+
+  D - $V\hspace{1mm}\Omega$
+
+  (**Total for question = 1 mark**)
+
+9. A unit for magnetic flux is the 
+
+  A - $Wb$
+
+  B - $Wb\hspace{1mm}m^{2}$
+
+  C - $T$
+
+  D - $T\hspace{1mm}m^{-2}$
+
+  (**Total for question = 1 mark**)
+
+### Answers
+
+  1.C ($kg\hspace{1mm}m^2 s A^{-1}$)
+
+  2.D
+
+  3.A (Human error is possible: eg not placing the sensor correctly)
+
+  4.A 
+
+  5.C (time)
+
+  6.B (force on electric charge)
+
+  7.C
+
+  8.A 
+
+  9.A (Wb - magnetism) 
+
