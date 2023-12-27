@@ -148,7 +148,7 @@ What are coherent waves?
 
 ::::
 
-*Stationary (“standing”) wave:* superposition of opposite direction coherent waves. At points with opposite phase the interference results in no movement (“nodes”). Points with maximum amplitude are “antinodes”. Total transfer of energy $= 0\hspace{1mm}J$ (the net result is not a wave!).
+**Stationary (“standing”) wave:** superposition of opposite direction coherent waves. At points with opposite phase the interference results in no movement (“nodes”). Points with maximum amplitude are “antinodes”. Total transfer of energy $= 0\hspace{1mm}J$ (the net result is not a wave!).
 
 Progressive waves do transfer energy. [Watch here](https://www.youtube.com/watch?v=ieheeeKTbac). 
 
