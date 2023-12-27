@@ -9,5 +9,9 @@
   "02-units.qmd": {
     "02-units.tex": "ec2913bd",
     "02-units.html": "78560342"
+  },
+  "03-waves.qmd": {
+    "03-waves.html": "996868ca",
+    "03-waves.tex": "fc4f336a"
   }
 }

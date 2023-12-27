@@ -1,0 +1,64 @@
+---
+title: Unit 3. Waves
+author: Y12
+highlight-style: pygments
+toc: true
+number-sections: true
+reference-location: margin
+code-fold: true
+format: 
+  pdf:
+    geometry: 
+      - top=25mm
+      - left=25mm
+---
+
+## Wave Basics
+
+What is a wave? How many types of waves are there? Why are they useful?
+
+$\rightarrow$ **Wave:** transfer of energy without matter (by transmission of oscillations):
+
+* Mechanical: oscillations of the medium.
+
+* Electromagnetic: oscillations of fields (electrical or magnetic).
+
+### Analysis of a Wave
+
+* Displacement $x$ ($m$): distance to the equilibrium (average) position.
+
+* Amplitude $A$ ($m$): maximum displacement of a wave.
+
+* Frequency $f$ (Hertz $Hz$): number of cycles through a point per second.
+
+* Wavelength $\lambda$ ($m$): distance between 2 equal waypoints (eg 2 peaks). @fig-wave1
+
+![wave components 1](images/wave1.png){#fig-wave1}
+
+* Period $T$ ($s$): time for 1 full oscillation or wavelength. @fig-wave2
+
+* Phase $\theta$ (rad): stage of wave at a point (~ angle around a circle, we will see it...).
+
+* Wave speed $v$ ($m/s$): $v = \frac{d}{t}$ and also $v =f\lambda$ (Wave equation)
+
+* Pulse-echo measurements (like bat and dolphin echolocation): emit a pulse of ultrasound (50-100kHz) and calculate $d=vt/2$ (rebound).
+
+![wave components 2](images/wave2.png){#fig-wave2}
+
+_Checkpoint questions_. (Extra: Read the experiment p.91, draw the wave diagram).
+
+### Think
+
+1. Graph from top to bottom: $0.2 m$, $80 m$, $5.5 m$.
+
+2. $1240 m$ ($d = v\cdot t$)
+
+3. $8.5\cdot 10^{14} Hz$ ($f = c/\lambda$, wave equation)
+
+4. As frequency is defined as waves per second, multipliying frequency by wavelenght is equivalent as dividing distance by time (velocity)
+
+5. Student's own answers using $v = f\cdot \lambda$.
+    Eg. estimated wavelenght is $5 m$, estimated frequency is 1 wave every 3 seconds, so $f = 0.33 Hz$. $v = f\cdot \lambda = 0.33\times 5 = 1.7 m\hspace{1mm}s^{-1}$
+
+## Wave types
+
