@@ -130,3 +130,34 @@ Also, $T = \frac{2\pi}{\omega} = \frac{1}{f}$ with $- =$ moving forward; $+ =$ m
 
 What are coherent waves? 
 
+**Coherent waves:** same frequency and “constant phase relationship” (=wavelength, so they stay in sync).
+
+::::{.columns}
+
+::: {.column width="40%"}
+![Constant phase shift](images/phase_diff.png){#fig-phase_diff}
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="40%"}
+![Constant phase in movement](images/phase_diff_2.png){#fig-phase_diff_2}
+:::
+
+::::
+
+*Stationary (“standing”) wave:* superposition of opposite direction coherent waves. At points with opposite phase the interference results in no movement (“nodes”). Points with maximum amplitude are “antinodes”. Total transfer of energy $= 0\hspace{1mm}J$ (the net result is not a wave!).
+
+Progressive waves do transfer energy. [Watch here](https://www.youtube.com/watch?v=ieheeeKTbac). 
+
+**Harmonics:** half-wavelengths that fit in a stretch of string L:
+“1st” or fundamental harmonic, $𝑓_0 \rightarrow 0.5𝜆=L$ 
+
+“2nd”: $𝜆 = L$
+
+“3rd”: $1.5 𝜆 = L$... etc.
+
+![Harmonics](images/harmonics.png){#fig-harmonics}
+
