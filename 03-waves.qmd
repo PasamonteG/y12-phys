@@ -99,7 +99,7 @@ Phase ($\varphi$ in radians) measures the wave position compared to a circular m
 
 * More than 1 cycle is expressed as the equivalent of the first cycle Eg: $450^{\circ} = 360^{\circ} + 90^{\circ} \rightarrow 90^{\circ}$; $2.5\pi\hspace{1mm} rad = 2\pi\hspace{1mm} rad + 0.5\pi\hspace{1mm} rad \rightarrow 0.5\pi\hspace{1mm} rad$.
 
-    The phase between two point can be measured_ $\Delta\varphi_{two points} = 2\pi \frac{\Delta d(m)}{\lambda}$.
+    The phase between two point can be measured_ $\Delta\varphi_{two points} = 2\pi \frac{\Delta d(m)}{\lambda}$. @fig-phase_diff and @fig-phase_diff_2
 
 [Watch this video](https://www.youtube.com/watch?v=v_oujF9RHK8).
 
@@ -107,7 +107,7 @@ Phase ($\varphi$ in radians) measures the wave position compared to a circular m
 
 * **Wavefront:** lines/surfaces with the wave at the same point Perpendicular to displacement of the wave.
 
-* **Superposition:** if waves coincide in the same point, the amplitude of the different waves add. $Amplitude_T = \sum A_i $. But displacement does not change. 
+* **Superposition:** if waves coincide in the same point, the amplitude of the different waves add. $Amplitude_T = \sum A_i$. But displacement does not change. 
 
 $\rightarrow$ In pulses, waves pass through each other. @fig-interference_1
 
@@ -171,7 +171,7 @@ Half-wavelengths that fit in a stretch of string L (@fig-harmonics):
 | Amplitude characteristic of particles | Different | Same |
 | Motion | Not transferable among the particles | Easily transferred among the particles |
 | Velocity at mean position | All particles have their own maximum velocity | All particles have similar maximum velocity |
-|Crests and Troughs | The crests and trough of the waveform appear and disappear at the initial position | The crests and troughs of the waveform move in the forward direction | 
+|Crests and Throughs | The crests and trough of the waveform appear and disappear at the initial position | The crests and troughs of the waveform move in the forward direction | 
 | Wavelength | Double the distance present between 2 consecutive nodes or anti-nodes | The distance between point of similar phase at the similar time instant |
 : {.striped}
 
