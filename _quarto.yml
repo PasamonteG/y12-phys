@@ -1,3 +1,9 @@
+---
 project:
   type: website
   output-dir: docs
+
+website: 
+  page-navigation: true
+  back-to-top-navigation: true
+---
