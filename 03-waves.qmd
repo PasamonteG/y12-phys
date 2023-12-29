@@ -191,3 +191,22 @@ Frontwaves can go through obstacles.
 
 ![Diffraction through a slit](images/diffraction_2.png){#fig-diffraction_2 width=60%}
 
+For a discussion about wave propagation and how the Huygens Principle works, see [here](https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/27%3A_Wave_Optics/27.02%3A_Huygens's_Principle_-_Diffraction). 
+
+**Diffraction:** bending of waves around obstacles or through gaps into the “shadow areas” (behind the obstacle). 
+Diffraction is maximum if $L_{gap} = 𝝀$ (waves bend most); this means that he smaller the wavelenght, the smaller has to be the slit for the diffraction effect to be noticeable. 
+
+Diffraction patterns are created by wave interference (adding and subtracting of waves  when they interact.
+
+Maxima $\rightarrow$ intense points. Brightness of each maxima decreases as we move away from the center.
+
+Minima $\rightarrow$ dark/low points.
+
+![Diffraction patterns](images/diffraction_3.png){#fig-diffraction_3}
+
+To generate different patterns we use diffraction grating: many parallel slits at exact same distances to maximise separation of different colours (due to different $\lambda$).
+
+![Diffraction grating](images/diffraction_grating.png){#fig-diffraction_grating width=60%}
+
+$sin\hspace{1mm}\theta = N\frac{\lambda}{d}$, where $\theta$ is the angle between the horizontal and the measured maxima ($N = 1, 2\ldots$), N is the order of the maxima and d the separation distance for the grating. As you can see, the higher is $\lambda$, the more the ray bends (@fig-diffraction_grating).
+
