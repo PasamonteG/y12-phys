@@ -99,7 +99,7 @@ Phase ($\varphi$ in radians) measures the wave position compared to a circular m
 
 * More than 1 cycle is expressed as the equivalent of the first cycle Eg: $450^{\circ} = 360^{\circ} + 90^{\circ} \rightarrow 90^{\circ}$; $2.5\pi\hspace{1mm} rad = 2\pi\hspace{1mm} rad + 0.5\pi\hspace{1mm} rad \rightarrow 0.5\pi\hspace{1mm} rad$.
 
-    The phase between two point can be measured_ $\Delta\varphi_{two points} = 2\pi \frac{\Delta d(m)}{\lambda}$. @fig-phase_diff and @fig-phase_diff_2
+    The phase between two point can be measured: $\Delta\varphi_{two points} = 2\pi \frac{\Delta d(m)}{\lambda}$. @fig-phase_diff and @fig-phase_diff_2
 
 [Watch this video](https://www.youtube.com/watch?v=v_oujF9RHK8).
 
